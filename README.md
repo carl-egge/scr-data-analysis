@@ -7,9 +7,9 @@
 To get started you need to clone the repository, establish an environment file and create a virtual environment with the required pip packages.
 
 ```
-git clone https://github.com/carl-egge/scr-data-analysis
-cd scr-data-analysis
-cp example.env .env
+$ git clone https://github.com/carl-egge/scr-data-analysis
+$ cd scr-data-analysis
+$ cp example.env .env
 ```
 
 You maybe need to exchange the connection string in the .env file according to your needs.
