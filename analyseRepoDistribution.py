@@ -39,7 +39,7 @@ if csv_file.tell() == 0:
 # Loop over all documents in the database
 for document in counts:
     # Write the repo_id
-    csv_file.write(document["_id"] + ",")
+    csv_file.write(str(document["_id"]) + ",")
     # Write the quantity_of_files
     csv_file.write(str(document["count"]) + "\n")
 
